@@ -22,7 +22,7 @@ Neovim is a modern, highly extensible text editor based on Vim. It is loved for 
 ---
 
 ## Installation
-Not covered in detail here, but you can check the [official Neovim installation guide](https://neovim.io/doc/user/) for instructions.
+Not covered in detail here, but you can check the [official Neovim installation guide](https://github.com/neovim/neovim/blob/master/INSTALL.md) for instructions.
 
 ---
 
@@ -66,9 +66,11 @@ Commands and motions work together to perform efficient text editing.
 - `d4w`: Delete the next 4 words.
 - `y2j`: Yank the current and next 2 lines.
 
+Note: Command and Motions only work on Normal and Visual mode
+
 ---
 
-### Basic Commands (For visual mode)
+### Basic Commands (For Visual Mode)
 Here are essential commands for everyday use:
 
 | Command       | Description                                                      |
@@ -98,7 +100,7 @@ Here are essential commands for everyday use:
 ---
 
 ### Combining Commands and Motions
-You can combine commands with motions for powerful text editing.
+You can combine commands for a more efficient editing.
 
 | Combination   | Description                                                      |
 |---------------|------------------------------------------------------------------|
@@ -108,6 +110,24 @@ You can combine commands with motions for powerful text editing.
 | `y5k`         | Yank the current line and 4 lines above.                         |
 
 ---
+
+### Basic Commands (For Command Mode)
+| Command       | Description                                                      |
+|---------------|------------------------------------------------------------------|
+| `:w`          | Save the current file.                                           |
+| `:q`          | Exites neovim.                                                   |
+| `wq` or `:x`  | Save the current file and exit Neovim.                           |
+| `:q!`         | Quit without saving changes.                                     |
+| `:e filename` | Open or edit a file (filename).                                  |
+| `:r filename` | Insert the contents of another file in the current cursor position.|
+| `saveas file` | Save the current buffer to a new file.                             |
+| `:set opt`    | Set an option (e.g., :set number for line numbers).                |
+| `:noh`        | Remove search highlight.                                           |
+| `:/pattern`   | Search for a pattern.                                              |
+| `:s/foo/bar/  | Replace `foo` with `bar` on the current line.                      |
+| `:%s/foo/bar/ | Replace `foo` with `bar` in the whole file.                        |
+| `:!cmd`       | Run an external shell command.                                     |
+| `:help cmd    | Get help on a specific command.
 
 ## Advanced Topics
 
