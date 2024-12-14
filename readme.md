@@ -127,7 +127,7 @@ You can combine commands for a more efficient editing.
 | `:s/foo/bar/  | Replace `foo` with `bar` on the current line.                      |
 | `:%s/foo/bar/ | Replace `foo` with `bar` in the whole file.                        |
 | `:!cmd`       | Run an external shell command.                                     |
-| `:help cmd    | Get help on a specific command.
+| `:help cmd`   | Get help on a specific command.
 
 ## Advanced Topics
 
