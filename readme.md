@@ -20,26 +20,26 @@ not gonna cover that right now
 ### Command Count Motion
 - **Motion** -> A motion is anything that moves the cursor around
 - **Count** -> The count is how many times a motion is performed
-    - e.g. -> **4k** will move the cursor up 4 times
-    - e.g. -> **6j** will move the cursor down 6 times
-    - e.g. -> **5l** will move the cursor to the right 5 times
-    - e.g. -> **3h** will move the cursor to the left 4 times
+    - **e.g.** -> **4k** will move the cursor up 4 times
+    - **e.g.** -> **6j** will move the cursor down 6 times
+    - **e.g.** -> **5l** will move the cursor to the right 5 times
+    - **e.g.** -> **3h** will move the cursor to the left 4 times
 - **Commad** -> A command is an action to be performed on a file
 - **e.g.**
     - **d4k** -> will delete 4 lines above the current line
     - **d6w** -> will delete the next 6 words in the current line
     - **dw** -> will delete the current word (when count is not defined, it is by default 1)    
 
-#### Basic motions
+### Basic motions
 - **k** -> moves the cursor upwards
 - **j** -> moves the cursor downwards
 - **l** -> moves the cursor to the right
 - **h** -> moves the cursor to the left
-#
+##
 - **w** -> moves the cursor to the right by word
 - **b** -> moves the cursor to the leftt by word
 
-#### Basic commands
+### Basic commands
 - **dd** -> deletes the current line
 - **d** -> used with motion (might use a count or not) to delete text
 - **y** -> yak (copy) the selected text
