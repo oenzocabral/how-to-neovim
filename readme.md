@@ -129,6 +129,14 @@ You can combine commands for a more efficient editing.
 | `:!cmd`       | Run an external shell command.                                     |
 | `:help cmd`   | Get help on a specific command.
 
+
+## Begginner Tips
+Before moving on to the next topics, first try to master swithcing between all 4 modes, and try to get confortable with using motions and commands to navigate trought the file. Even tho it might seem boring, it is essential that you master the basics before moving on to the most advanced topics.
+
+For those who prefer to learn trough video, here is a YouTube video by @ThePrimeagen that might help you get the basics.
+[![Watch the video](https://youtu.be/X6AR2RMB5tE?si=jSgOOSSsMyUH4727)](https://youtu.be/X6AR2RMB5tE?si=jSgOOSSsMyUH4727)
+
+
 ## Advanced Topics
 
 ### Configuration
