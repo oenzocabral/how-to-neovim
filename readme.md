@@ -11,18 +11,24 @@ not gonna cover that right now
 ### Articles
 ### Repositories
 
-### Getting started
-#### Modes
-##### 1. Normal mode
+## Getting started
+### Modes
+#### 1. Normal mode
 - It is the default mode you are in when you enter neovim. It allows you to move your cursor around and navigate trought the file.
-- You can return to normal mode by pressing the *ESC* key on your keyboard.
-##### 2. Insert mode
-- You can enter insert mode by pressing *I*
+- You can return to normal mode by pressing the **ESC** key on your keyboard.
+#### 2. Insert mode
+- You can enter insert mode by pressing **I**
 - Insert mode allows you to actually edit the file you are in.
 - You can identify that you are on insert mode by looking at the left bottom corner of your terminal.
-##### 3. Visual mode
+#### 3. Visual mode
 - You can enter visual mode by pressing *V*
 - Visual mode allows you to select the text you pass your cursor over. it's like highlighting the text with your cursor.
 - You can identify that you are on visual mode by looking at the left bottom corner of your terminal.
-##### 4. Command mode
-- C
+#### 4. Command mode
+- Command mode allows you to run commands
+- You can identify that you are in command mode when ther is a ":" on the bottom left corner of your terminal.
+
+##### Basic commands
+- :w -> it saves the file you are currently in
+- :q -> it exits neovim
+- :wq -> it saves the file you are currently in and thene exits neovim
