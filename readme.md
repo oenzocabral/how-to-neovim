@@ -161,7 +161,7 @@ For those who prefer to learn trough video, here is a YouTube video by @ThePrime
 
 ## References
 ### YouTube Links
-- [The Primeagen’s Tutorials](https://www.youtube.com/user/ThePrimeagen)
+- [The Primeagen’s Tutorials](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)
 - [Chris@Machine’s Neovim Series](https://www.youtube.com/c/ChrisAtMachine)
 
 ### Official Documentation
