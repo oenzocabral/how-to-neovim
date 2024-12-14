@@ -18,37 +18,36 @@ not gonna cover that right now
 - You can return to normal mode by pressing the **ESC** key on your keyboard.
 
 ### Command Count Motion
-- **Motion** -> A motion is anything that moves the cursor around
-- **Count** -> The count is how many times a motion is performed
-    - **e.g.** -> **4k** will move the cursor up 4 times
-    - **e.g.** -> **6j** will move the cursor down 6 times
-    - **e.g.** -> **5l** will move the cursor to the right 5 times
-    - **e.g.** -> **3h** will move the cursor to the left 4 times
-- **Commad** -> A command is an action to be performed on a file
+- **Motion** - A motion is anything that moves the cursor around
+- **Count** - The count is how many times a motion is performed
+    - **e.g.** - **4k** will move the cursor up 4 times
+    - **e.g.** - **6j** will move the cursor down 6 times
+    - **e.g.** - **5l** will move the cursor to the right 5 times
+    - **e.g.** - **3h** will move the cursor to the left 4 times
+- **Commad** - A command is an action to be performed on a file
 - **e.g.**
-    - **d4k** -> will delete 4 lines above the current line
-    - **d6w** -> will delete the next 6 words in the current line
-    - **dw** -> will delete the current word (when count is not defined, it is by default 1)    
+    - **d4k** - will delete 4 lines above the current line
+    - **d6w** - will delete the next 6 words in the current line
+    - **dw** - will delete the current word (when count is not defined, it is by default 1)    
 
 ### Basic motions
-- **k** -> moves the cursor upwards
-- **j** -> moves the cursor downwards
-- **l** -> moves the cursor to the right
-- **h** -> moves the cursor to the left
-##
-- **w** -> moves the cursor to the right by word
-- **b** -> moves the cursor to the leftt by word
+- **k** - moves the cursor upwards
+- **j** - moves the cursor downwards
+- **l** - moves the cursor to the right
+- **h** - moves the cursor to the left
+- **w** - moves the cursor to the right by word
+- **b** - moves the cursor to the leftt by word
 
 ### Basic commands
-- **dd** -> deletes the current line
-- **d** -> used with motion (might use a count or not) to delete text
-- **y** -> yak (copy) the selected text
-- **c** -> change the selected text (deletes and enters **Insert mode**)
-- **U** -> Converts selected text to uppercase
-- **u** -> Converts selected text to lowercase
-- **>** -> Indeent the selected text
-- **<** -> Un-indent the selected text
-- **=** -> Auto-indent the selected text
+- **dd** - deletes the current line
+- **d** - used with motion (might use a count or not) to delete text
+- **y** - yak (copy) the selected text
+- **c** - change the selected text (deletes and enters **Insert mode**)
+- **U** - Converts selected text to uppercase
+- **u** - Converts selected text to lowercase
+- **>** - Indeent the selected text
+- **<** - Un-indent the selected text
+- **=** - Auto-indent the selected text
 
 #
 
@@ -65,9 +64,9 @@ not gonna cover that right now
 - You can identify that you are in command mode when ther is a ":" on the bottom left corner of your terminal.
 
 ### Basic commands
-- :w -> it saves the file you are currently in
-- :q -> it exits neovim
-- :wq -> it saves the file you are currently in and thene exits neovim
+- :w - it saves the file you are currently in
+- :q - it exits neovim
+- :wq - it saves the file you are currently in and thene exits neovim
 
 
 
