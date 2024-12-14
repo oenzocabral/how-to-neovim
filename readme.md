@@ -1,23 +1,38 @@
 # How to Neovim
 
-### Perfect for beginners starting with Vim/Neovim and experienced users looking to level up their skills.
+### This repository a guide that teaches the basics all the way up to the advanced topics of Neovim. It includes resources, articles, repositories, and detailed explanations for each topic. It is being developed to be begginer friendly, but still, include advanced topics for Neovim users with some experience.
 
+Note: This repository is still in development.
 ---
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Getting Started](#getting-started)
+2. [Contributions](#contributions)
+3. [Installation](#installation)
+4. [Getting Started](#getting-started)
     - [Modes](#modes)
     - [Commands and Motions](#commands-and-motions)
     - [Basic Commands](#basic-commands)
-4. [Advanced Topics](#advanced-topics)
-5. [References](#references)
+5. [Advanced Topics](#advanced-topics)
+6. [References](#references)
 
 ---
 
 ## Introduction
 Neovim is a modern, highly extensible text editor based on Vim. It is loved for its speed, efficiency, and customizability. Whether you’re a developer, writer, or power user, Neovim can significantly enhance your productivity.
+
+---
+
+## Contributions
+
+We welcome contributions from everyone! If you have more experience with Neovim or if you simply have a better way to explain a concept, feel free to fork this repository and improve the content. You can contribute by updating the `README.md` file, adding new tutorials, or clarifying existing ones.
+
+### How to Contribute:
+1. Fork this repository.
+2. Make your changes (feel free to improve explanations, add examples, or suggest new topics).
+3. Submit a pull request with your changes.
+
+Your contributions help make this repository better for everyone.
 
 ---
 
