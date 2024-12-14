@@ -1,4 +1,4 @@
-# Neovim Tutorial: From Basics to Advanced
+# How to Neovim
 
 ### Perfect for beginners starting with Vim/Neovim and experienced users looking to level up their skills.
 
@@ -136,28 +136,6 @@ Before moving on to the next topics, first try to master swithcing between all 4
 For those who prefer to learn trough video, here is a YouTube video by @ThePrimeagen that might help you get the basics.
 
 [![Watch the video](https://img.youtube.com/vi/X6AR2RMB5tE/0.jpg)](https://youtu.be/X6AR2RMB5tE?si=Q4khlOfHzkA_i5VB)
----
-## Advanced Topics
-
-### Configuration
-- Customize Neovim by editing the `init.lua` (or `init.vim`) file.
-- Examples of configurations include:
-    - Setting up key mappings.
-    - Adjusting color schemes.
-    - Enabling relative line numbers.
-
-### Plugins
-- Extend Neovim’s functionality with plugins.
-- Popular plugin managers include:
-    - `packer.nvim`
-    - `vim-plug`
-
-### Useful Workflows
-- Split Windows: `:vsplit` (vertical) or `:split` (horizontal).
-- Tabs: Use `:tabnew` to create a new tab.
-- Search and Replace: `:%s/old/new/g` (global replacement).
-
----
 
 ## References
 ### YouTube Links
@@ -168,8 +146,7 @@ For those who prefer to learn trough video, here is a YouTube video by @ThePrime
 - [Neovim Docs](https://neovim.io/doc/user/)
 
 ### Articles
-- [Beginner's Guide to Neovim](https://neovim.io/learn/)
-- [Advanced Neovim Tips](https://neovim.io/tips/)
+- [Beginner's Guide to Neovim](https://neovim.io/doc/user/intro.html)
 
 ### Repositories
 - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim): A minimal Neovim configuration.
