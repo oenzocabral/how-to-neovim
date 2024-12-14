@@ -1,75 +1,155 @@
-# This guide covers the basics all the way up to the advanced on how to use neovim
-#### This is perfect for those who are just starting on vim or neovim and also for those who have some experience with neovim but want to step up their game a little more
+# Neovim Tutorial: From Basics to Advanced
+
+### Perfect for beginners starting with Vim/Neovim and experienced users looking to level up their skills.
+
+---
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Getting Started](#getting-started)
+    - [Modes](#modes)
+    - [Commands and Motions](#commands-and-motions)
+    - [Basic Commands](#basic-commands)
+4. [Advanced Topics](#advanced-topics)
+5. [References](#references)
+
+---
 
 ## Introduction
-### Instalation
-not gonna cover that right now
+Neovim is a modern, highly extensible text editor based on Vim. It is loved for its speed, efficiency, and customizability. Whether you’re a developer, writer, or power user, Neovim can significantly enhance your productivity.
+
+---
+
+## Installation
+Not covered in detail here, but you can check the [official Neovim installation guide](https://neovim.io/doc/user/) for instructions.
+
+---
+
+## Getting Started
+
+### Modes
+Neovim operates with multiple modes, each serving a distinct purpose:
+
+1. **Normal Mode**:
+    - Default mode when you open Neovim.
+    - Use for navigation and executing commands.
+    - Enter by pressing **ESC**.
+
+2. **Insert Mode**:
+    - Allows text editing.
+    - Enter by pressing **i** (or **a**, **o** for variations).
+    - Exit by pressing **ESC**.
+
+3. **Visual Mode**:
+    - Enables text selection.
+    - Enter by pressing **v** for character selection, **V** for line selection, or **Ctrl-v** for block selection.
+    - Exit by pressing **ESC**.
+
+4. **Command Mode**:
+    - Execute file operations like save, quit, and more.
+    - Enter by typing **:**.
+    - Exit by pressing **ESC** or executing a command.
+
+---
+
+### Commands and Motions
+Commands and motions work together to perform efficient text editing.
+
+- **Command**: An action performed on text (e.g., delete, yank, change).
+- **Motion**: Specifies where the command applies (e.g., word, line).
+- **Count**: Repeats the motion/command a specified number of times.
+
+**Examples:**
+- `4k`: Move cursor up 4 lines.
+- `6w`: Move cursor forward 6 words.
+- `d4w`: Delete the next 4 words.
+- `y2j`: Yank the current and next 2 lines.
+
+---
+
+### Basic Commands (For visual mode)
+Here are essential commands for everyday use:
+
+| Command       | Description                                                      |
+|---------------|------------------------------------------------------------------|
+| `dd`          | Delete the current line.                                         |
+| `y`           | Yank (copy) the selected text.                                   |
+| `p`           | Paste the selected text                                          |
+| `c`           | Change the selected text (deletes and enters Insert mode).       |
+| `U`           | Convert the selected text to uppercase.                          |
+| `u`           | Convert the selected text to lowercase.                          |
+| `>`           | Indent the selected text.                                        |
+| `<`           | Un-indent the selected text.                                     |
+| `=`           | Auto-indent the selected text.                                   |
+
+---
+
+### Basic Motions
+| Motion        | Description                                                      |
+|---------------|------------------------------------------------------------------|
+| `k`           | Move cursor up one line.                                         |
+| `j`           | Move cursor down one line.                                       |
+| `h`           | Move cursor left one character.                                  |
+| `l`           | Move cursor right one character.                                 |
+| `w`           | Move to the beginning of the next word.                          |
+| `b`           | Move to the beginning of the previous word.                      |
+
+---
+
+### Combining Commands and Motions
+You can combine commands with motions for powerful text editing.
+
+| Combination   | Description                                                      |
+|---------------|------------------------------------------------------------------|
+| `d4w`         | Delete the next 4 words.                                         |
+| `c3w`         | Change the next 3 words.                                         |
+| `>2j`         | Indent the current and next 2 lines.                             |
+| `y5k`         | Yank the current line and 4 lines above.                         |
+
+---
+
+## Advanced Topics
+
+### Configuration
+- Customize Neovim by editing the `init.lua` (or `init.vim`) file.
+- Examples of configurations include:
+    - Setting up key mappings.
+    - Adjusting color schemes.
+    - Enabling relative line numbers.
+
+### Plugins
+- Extend Neovim’s functionality with plugins.
+- Popular plugin managers include:
+    - `packer.nvim`
+    - `vim-plug`
+
+### Useful Workflows
+- Split Windows: `:vsplit` (vertical) or `:split` (horizontal).
+- Tabs: Use `:tabnew` to create a new tab.
+- Search and Replace: `:%s/old/new/g` (global replacement).
+
+---
 
 ## References
-### YouTube links
-### Neovim documentation
+### YouTube Links
+- [The Primeagen’s Tutorials](https://www.youtube.com/user/ThePrimeagen)
+- [Chris@Machine’s Neovim Series](https://www.youtube.com/c/ChrisAtMachine)
+
+### Official Documentation
+- [Neovim Docs](https://neovim.io/doc/user/)
+
 ### Articles
+- [Beginner's Guide to Neovim](https://neovim.io/learn/)
+- [Advanced Neovim Tips](https://neovim.io/tips/)
+
 ### Repositories
+- [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim): A minimal Neovim configuration.
+- [Awesome Neovim](https://github.com/rockerBOO/awesome-neovim): A curated list of Neovim plugins and resources.
 
-## Getting started
-### Modes
-### 1. Normal mode
-- It is the default mode you are in when you enter neovim. It allows you to move your cursor around and navigate trought the file.
-- You can return to normal mode by pressing the **ESC** key on your keyboard.
+---
 
-### Command Count Motion
-- **Motion** - A motion is anything that moves the cursor around
-- **Count** - The count is how many times a motion is performed
-    - **e.g.** - **4k** will move the cursor up 4 times
-    - **e.g.** - **6j** will move the cursor down 6 times
-    - **e.g.** - **5l** will move the cursor to the right 5 times
-    - **e.g.** - **3h** will move the cursor to the left 4 times
-- **Commad** - A command is an action to be performed on a file
-- **e.g.**
-    - **d4k** - will delete 4 lines above the current line
-    - **d6w** - will delete the next 6 words in the current line
-    - **dw** - will delete the current word (when count is not defined, it is by default 1)    
-
-### Basic motions
-- **k** - moves the cursor upwards
-- **j** - moves the cursor downwards
-- **l** - moves the cursor to the right
-- **h** - moves the cursor to the left
-- **w** - moves the cursor to the right by word
-- **b** - moves the cursor to the leftt by word
-
-### Basic commands
-- **dd** - deletes the current line
-- **d** - used with motion (might use a count or not) to delete text
-- **y** - yak (copy) the selected text
-- **c** - change the selected text (deletes and enters **Insert mode**)
-- **U** - Converts selected text to uppercase
-- **u** - Converts selected text to lowercase
-- **>** - Indeent the selected text
-- **<** - Un-indent the selected text
-- **=** - Auto-indent the selected text
-
-#
-
-### 2. Insert mode
-- You can enter insert mode by pressing **I**
-- Insert mode allows you to actually edit the file you are in.
-- You can identify that you are on insert mode by looking at the left bottom corner of your terminal.
-### 3. Visual mode
-- You can enter visual mode by pressing *V*
-- Visual mode allows you to select the text you pass your cursor over. it's like highlighting the text with your cursor.
-- You can identify that you are on visual mode by looking at the left bottom corner of your terminal.
-### 4. Command mode
-- Command mode allows you to run commands
-- You can identify that you are in command mode when ther is a ":" on the bottom left corner of your terminal.
-
-### Basic commands
-- :w - it saves the file you are currently in
-- :q - it exits neovim
-- :wq - it saves the file you are currently in and thene exits neovim
-
-
-
+This guide will be continually updated with more tips, workflows, and advanced techniques. Happy editing!
 
 
 
