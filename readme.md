@@ -20,10 +20,10 @@ not gonna cover that right now
 ### Command Count Motion
 - **Motion** -> A motion is anything that moves the cursor around
 - **Count** -> The count is how many times a motion is performed
-    - 1. e.g. -> **4k** will move the cursor up 4 times
-    - 2. e.g. -> **6j** will move the cursor down 6 times
-    - 3. e.g. -> **5l** will move the cursor to the right 5 times
-    - 4. e.g. -> **3h** will move the cursor to the left 4 times
+    - e.g. -> **4k** will move the cursor up 4 times
+    - e.g. -> **6j** will move the cursor down 6 times
+    - e.g. -> **5l** will move the cursor to the right 5 times
+    - e.g. -> **3h** will move the cursor to the left 4 times
 - **Commad** -> A command is an action to be performed on a file
 - **e.g.**
     - **d4k** -> will delete 4 lines above the current line
