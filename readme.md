@@ -1,8 +1,9 @@
 # How to Neovim
 
-### This repository a guide that teaches the basics all the way up to the advanced topics of Neovim. It includes resources, articles, repositories, and detailed explanations for each topic. It is being developed to be begginer friendly, but still, include advanced topics for Neovim users with some experience.
+This repository a guide that teaches the basics all the way up to the advanced topics of Neovim. It includes resources, articles, repositories, and detailed explanations for each topic. It is being developed to be begginer friendly, but still, include advanced topics for Neovim users with some experience.
 
 Note: This repository is still in development.
+
 ---
 
 ## Table of Contents
