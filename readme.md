@@ -153,6 +153,25 @@ For those who prefer to learn trough video, here is a YouTube video by @ThePrime
 
 [![Watch the video](https://img.youtube.com/vi/X6AR2RMB5tE/0.jpg)](https://youtu.be/X6AR2RMB5tE?si=Q4khlOfHzkA_i5VB)
 
+
+## More Motions
+| Command       | Description                                                   |
+|---------------|---------------------------------------------------------------|
+| `_`           | Go to the begginning of the line.                     |
+| `$`           | Go to the end of the line.                            |
+| `0`           | Go to the initial character of the line (inluding indentation). |
+| `f+character` | Go forward to the closest "character" to the cursor.  |
+| `F+character` | Go backwards to the closes "character" to the cursor. |
+| `t+character` | Go forward to the left of the specified character (not on the character). |
+| `T+character` | Go backwards to the right of the specified character (not on the character). |
+| `;`           | Repeat the action of `f` or `t` forward.    |
+| `,`           | Repeat the action of `f` or `t` backwards.  |
+| `I`           | Go to the beggining of the line in Insert Mode. |
+| `A`           | Go to the end of the line in Insert Mode.        |
+| `o`           | Create a new line under the cursor and go into Insert Mode. |
+| `O`           | Create a new line above the cursor and go into Insert Mode. |
+
+
 ## References
 ### YouTube Links
 - [The Primeagen’s Tutorials](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)
